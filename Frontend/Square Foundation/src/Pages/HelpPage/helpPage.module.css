@@ -1,0 +1,133 @@
+.help_page_main_container {
+  display: flex;
+  flex-direction: column;
+  max-height: 800px;
+  /* border: 1px solid black; */
+}
+
+.help_page_header {
+  width: 600px;
+  text-align: center;
+  margin: 40px auto;
+  .help_page_header_text {
+    font-size: 32px;
+    font-weight: bolder;
+  }
+}
+
+.help_page_main_box {
+  height: 340px;
+  width: 900px;
+  /* border: 0.5px solid black; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.help_page_img_box {
+  height: 320px;
+  width: 400px;
+  /* border: 0.5px solid black; */
+  display: flex;
+
+  .help_page_img_box_1 {
+    width: 200px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* border: 0.5px solid black; */
+
+    .help_page_img_1 {
+      height: 180px;
+      width: 180px;
+      /* border: .5px solid black; */
+    }
+    .help_page_img_2 {
+      height: 110px;
+      width: 220px;
+    }
+  }
+  .help_page_img_box_2 {
+    width: 200px;
+    height: 320px;
+    /* border: .5px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+
+    .help_page_img_3 {
+      height: 110px;
+      width: 180px;
+    }
+    .help_page_img_4 {
+      height: 200px;
+      width: 180px;
+      border-radius: 12px;
+    }
+  }
+}
+
+.help_page_first_picture_box {
+}
+
+.help_page_text_container {
+  height: 320px;
+  width: 480px;
+  /* border: 0.5px solid black; */
+  display: flex;
+
+  .help_page_text_box {
+    height: 240px;
+    width: 400px;
+    /* border: 0.5px solid black; */
+    margin: 40px 0;
+    /* text-align: justify; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    .help_page_first_text_box {
+      display: flex;
+      gap: 10px;
+      .help_page_text_box_png {
+        height: 30px;
+        width: 40px;
+      }
+    }
+
+    .help_page_second_text_box {
+      display: flex;
+      gap: 10px;
+      .help_page_text_box_png {
+        height: 30px;
+        width: 40px;
+      }
+    }
+
+    .help_page_third_text_box {
+      display: flex;
+      gap: 10px;
+      .help_page_text_box_png {
+        height: 30px;
+        width: 40px;
+      }
+    }
+
+    .help_page_fourth_text_box {
+      display: flex;
+      gap: 10px;
+      .help_page_text_box_png {
+        height: 30px;
+        width: 40px;
+      }
+    }
+  }
+}

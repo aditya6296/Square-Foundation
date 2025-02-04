@@ -1,0 +1,35 @@
+.faq_main_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.faq_header_text {
+  height: 220px;
+  width: 300px;
+  font-size: 28px;
+}
+
+.faq_para_text_container {
+  /* border: 0.5px solid black; */
+  height: 350px;
+  width: 480px;
+  text-align: justify;
+  overflow: hidden;
+}
+
+.faq_para_text {
+  margin: 28px 0;
+}
+
+.faq_para_text_question {
+  font-size: 20px;
+}
+
+.faq_para_text_answer {
+  margin: 10px 0;
+}
+

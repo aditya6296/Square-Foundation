@@ -1,0 +1,47 @@
+.impact_page_main_container {
+  border: 2px solid black;
+  height: 90px;
+  background-color: rgba(2, 6, 23, 1);
+  margin-top: 10px;
+}
+
+.impact_page_text_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  /* border: 1px solid white; */
+  height: 60px;
+  width: 1000px;
+  margin: 10px auto;
+}
+
+.impact_page_first_text_box {
+  color: white;
+  border-right: 1px solid rgb(255, 255, 255);
+  text-align: center;
+}
+
+.impact_page_first_text_box_1 {
+  margin: 0 24px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.impact_page_second_text_box {
+  color: white;
+  margin: 0 10px;
+  display: flex;
+  gap: 80px;
+  text-align: center;
+
+  .impact_page_second_text_box_1 {
+    font-size: 20px;
+  }
+  .impact_page_second_text_box_2 {
+    font-size: 20px;
+  }
+  .impact_page_second_text_box_3 {
+    font-size: 18px;
+  }
+}

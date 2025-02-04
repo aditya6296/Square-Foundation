@@ -1,0 +1,108 @@
+.testimonial_page_main_container {
+  height: 480px;
+  background-color: rgba(72, 22, 156, 1);
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial_page_header_container {
+  color: white;
+  width: 900px;
+  text-align: center;
+  margin: 40px auto;
+  /* border: 0.5px solid white; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .testimonial_page_header_text {
+    font-size: 44px;
+    font-weight: bolder;
+  }
+}
+
+.testimonial_page_header_btn {
+  width: 150px;
+  height: 70px;
+  padding: 10px;
+  display: flex;
+  gap: 15px;
+
+  .testimonial_page_header_back_btn {
+    border-radius: 50%;
+    width: 50px;
+    padding: 12px;
+    cursor: pointer;
+    background: none;
+    color: white;
+    border: 1.5px solid white;
+
+    &:hover {
+      color: black;
+      background-color: white;
+      transition: background-color 0.3s ease-in-out;
+    }
+  }
+
+  .testimonial_page_header_forward_btn {
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 50px;
+    background: none;
+    color: white;
+    border: 1.5px solid white;
+
+    &:hover {
+      color: black;
+      background-color: white;
+      transition: background-color 0.3s ease-in-out;
+    }
+  }
+}
+
+.testimonial_page_card_container {
+  height: 240px;
+  width: 900px;
+  /* border: 1px solid white; */
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: justify;
+
+  .testimonial_page_first_card_container {
+    width: 440px;
+    border-radius: 12px;
+    color: white;
+    background-color: rgba(25, 29, 35, 1);
+
+    .testimonial_page_first_card_text_box {
+      margin: 20px;
+    }
+    .testimonial_page_first_card_image_box {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      margin: 0 20px;
+      /* position: relative; */
+    }
+  }
+
+  .testimonial_page_second_card_container {
+    width: 440px;
+    border-radius: 12px;
+    color: white;
+    background-color: rgba(25, 29, 35, 1);
+
+    .testimonial_page_second_card_text_box {
+      margin: 20px;
+    }
+    .testimonial_page_second_card_image_box {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      margin: 0 20px;
+    }
+  }
+}
